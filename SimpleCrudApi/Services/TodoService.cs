@@ -94,6 +94,6 @@ public class TodoService : ITodoService {
             IsCompleted = todo.IsCompleted,
             CreatedAt = todo.CreatedAt,
             CompletedAt = todo.CompletedAt
-        }
+        };
     }
 }
